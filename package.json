@@ -7,7 +7,6 @@
     "start": "webpack-dev-server --port 8085 --host 0.0.0.0 --config config/webpack.config.dev.js --env=dev-robe",
     "debug": "webpack-dev-server --port 8085 --host 0.0.0.0 --config config/webpack.config.dev.js --env=dev-robe --devtool=cheap-module-eval-source-map"
   },
-
   "keywords": [
     "react",
     "es6",
@@ -17,7 +16,6 @@
     "dev",
     "test",
     "prod"
-
   ],
   "license": "MIT",
   "devDependencies": {
@@ -45,11 +43,12 @@
     "react": "^15.6.2",
     "react-bootstrap": "0.30.7",
     "react-bootstrap-datetimepicker": "0.0.22",
-    "react-bootstrap-table": "3.1.1",
+    "react-bootstrap-table": "^3.1.1",
     "react-cookie": "^1.0.4",
     "react-dom": "^15.4.2",
     "react-images": "0.5.2",
-    "react-router": "3.0.0"
+    "react-router": "3.0.0",
+    "react-router-dom": "^4.2.2"
   },
   "directories": {
     "doc": "docs"
